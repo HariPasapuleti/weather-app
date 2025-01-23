@@ -23,5 +23,22 @@ A modern weather application that provides real-time weather updates for any loc
 ## Installation 🔧
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/HariPasapuleti/weather-app
+   ```
+3. Navigate to the project directory:
+
+   ```bash
+   cd weather-app
+   ```
+5. Open `index.html` in your browser to see the app in action. Alternatively, you can deploy it on a server of your choice.
+
+7. **API Key Setup**:
+  - Visit [WeatherAPI](https://www.weatherapi.com/) and sign up for a free account to get an API key.
+  - Replace the `API_KEY` placeholder in the script with your actual API key in the `weather.js` file:
+    
+    ```javascript
+    const API_KEY = 'YOUR_API_KEY';
+    ```
+5. Optionally, if you're looking to run the app locally using a server, you can use any local server setup (e.g., using Live Server extension in VS Code or using Python's built-in HTTP server).
